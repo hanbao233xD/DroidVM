@@ -7,7 +7,7 @@ name: Dev release
 # (release.yml still cuts real, versioned releases on real tag pushes.)
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
   workflow_dispatch:
 
 permissions:
